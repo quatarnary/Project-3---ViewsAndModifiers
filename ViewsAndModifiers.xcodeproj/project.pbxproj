@@ -11,6 +11,15 @@
 		686A2BCB2BF3EEE2009F7C82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686A2BCA2BF3EEE2009F7C82 /* ContentView.swift */; };
 		686A2BCD2BF3EEE4009F7C82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 686A2BCC2BF3EEE4009F7C82 /* Assets.xcassets */; };
 		686A2BD02BF3EEE4009F7C82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 686A2BCF2BF3EEE4009F7C82 /* Preview Assets.xcassets */; };
+		68BCBED32BFB86F200ADCD32 /* ButtonBackgroundColorFirstFrameLater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BCBED22BFB86F200ADCD32 /* ButtonBackgroundColorFirstFrameLater.swift */; };
+		68BCBED52BFB871F00ADCD32 /* TextWithDifferentColorBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BCBED42BFB871F00ADCD32 /* TextWithDifferentColorBorder.swift */; };
+		68BCBED72BFB875E00ADCD32 /* ModifiersConditional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BCBED62BFB875E00ADCD32 /* ModifiersConditional.swift */; };
+		68C3A4C12BFCDE6000E964B2 /* ExpEnvironmentalModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C3A4C02BFCDE6000E964B2 /* ExpEnvironmentalModifier.swift */; };
+		68C3A4C32BFCE84200E964B2 /* ExpViewsAsProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C3A4C22BFCE84200E964B2 /* ExpViewsAsProperties.swift */; };
+		68C3A4C52BFCECE000E964B2 /* ExpViewComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C3A4C42BFCECE000E964B2 /* ExpViewComposition.swift */; };
+		68C3A4C72BFE212900E964B2 /* ExpCustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C3A4C62BFE212900E964B2 /* ExpCustomModifiers.swift */; };
+		68C3A4C92BFE227700E964B2 /* Exp2CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C3A4C82BFE227700E964B2 /* Exp2CustomModifiers.swift */; };
+		68C3A4CB2BFE24D700E964B2 /* ExpCustomContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C3A4CA2BFE24D700E964B2 /* ExpCustomContainers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		686A2BCA2BF3EEE2009F7C82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		686A2BCC2BF3EEE4009F7C82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		686A2BCF2BF3EEE4009F7C82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68BCBED22BFB86F200ADCD32 /* ButtonBackgroundColorFirstFrameLater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBackgroundColorFirstFrameLater.swift; sourceTree = "<group>"; };
+		68BCBED42BFB871F00ADCD32 /* TextWithDifferentColorBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWithDifferentColorBorder.swift; sourceTree = "<group>"; };
+		68BCBED62BFB875E00ADCD32 /* ModifiersConditional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersConditional.swift; sourceTree = "<group>"; };
+		68C3A4C02BFCDE6000E964B2 /* ExpEnvironmentalModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpEnvironmentalModifier.swift; sourceTree = "<group>"; };
+		68C3A4C22BFCE84200E964B2 /* ExpViewsAsProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpViewsAsProperties.swift; sourceTree = "<group>"; };
+		68C3A4C42BFCECE000E964B2 /* ExpViewComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpViewComposition.swift; sourceTree = "<group>"; };
+		68C3A4C62BFE212900E964B2 /* ExpCustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpCustomModifiers.swift; sourceTree = "<group>"; };
+		68C3A4C82BFE227700E964B2 /* Exp2CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exp2CustomModifiers.swift; sourceTree = "<group>"; };
+		68C3A4CA2BFE24D700E964B2 /* ExpCustomContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpCustomContainers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,15 @@
 		686A2BC72BF3EEE2009F7C82 /* ViewsAndModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				68C3A4C62BFE212900E964B2 /* ExpCustomModifiers.swift */,
+				68C3A4C82BFE227700E964B2 /* Exp2CustomModifiers.swift */,
+				68C3A4CA2BFE24D700E964B2 /* ExpCustomContainers.swift */,
+				68C3A4C42BFCECE000E964B2 /* ExpViewComposition.swift */,
+				68BCBED62BFB875E00ADCD32 /* ModifiersConditional.swift */,
+				68C3A4C02BFCDE6000E964B2 /* ExpEnvironmentalModifier.swift */,
+				68C3A4C22BFCE84200E964B2 /* ExpViewsAsProperties.swift */,
+				68BCBED42BFB871F00ADCD32 /* TextWithDifferentColorBorder.swift */,
+				68BCBED22BFB86F200ADCD32 /* ButtonBackgroundColorFirstFrameLater.swift */,
 				686A2BC82BF3EEE2009F7C82 /* ViewsAndModifiersApp.swift */,
 				686A2BCA2BF3EEE2009F7C82 /* ContentView.swift */,
 				686A2BCC2BF3EEE4009F7C82 /* Assets.xcassets */,
@@ -137,8 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68C3A4C32BFCE84200E964B2 /* ExpViewsAsProperties.swift in Sources */,
 				686A2BCB2BF3EEE2009F7C82 /* ContentView.swift in Sources */,
+				68BCBED72BFB875E00ADCD32 /* ModifiersConditional.swift in Sources */,
+				68BCBED32BFB86F200ADCD32 /* ButtonBackgroundColorFirstFrameLater.swift in Sources */,
+				68C3A4C72BFE212900E964B2 /* ExpCustomModifiers.swift in Sources */,
+				68BCBED52BFB871F00ADCD32 /* TextWithDifferentColorBorder.swift in Sources */,
 				686A2BC92BF3EEE2009F7C82 /* ViewsAndModifiersApp.swift in Sources */,
+				68C3A4C12BFCDE6000E964B2 /* ExpEnvironmentalModifier.swift in Sources */,
+				68C3A4C92BFE227700E964B2 /* Exp2CustomModifiers.swift in Sources */,
+				68C3A4CB2BFE24D700E964B2 /* ExpCustomContainers.swift in Sources */,
+				68C3A4C52BFCECE000E964B2 /* ExpViewComposition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
